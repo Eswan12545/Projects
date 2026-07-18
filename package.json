@@ -1,0 +1,22 @@
+{
+  "name": "akatsuki-bot",
+  "version": "1.0.0",
+  "description": "Akatsuki - Discord Ticket, Ads, Welcome & Verification Bot",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "@discordjs/voice": "^0.17.0",
+    "dotenv": "^16.4.5",
+    "libsodium-wrappers": "^0.7.15",
+    "ffmpeg-static": "^5.2.0",
+    "play-dl": "^1.9.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
